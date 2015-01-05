@@ -46,3 +46,6 @@
 
 [push]
 	default = simple
+[user]
+	email = jelorillon@gmail.com
+	name = Jean-Edern Lorillon
