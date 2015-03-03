@@ -12,7 +12,7 @@
   remote = yellow
 
 [core]
-  editor = subl -n -w
+  editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
   pager = less -FRSX
   mergeoptions = --no-edit
 
@@ -49,3 +49,7 @@
 [user]
 	email = trashjelo@gmail.com
 	name = Jean-Edern Lorillon
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
